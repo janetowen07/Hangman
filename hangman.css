@@ -26,12 +26,12 @@ h1, h2, h3 {
  	text-transform: uppercase;
     margin:5px 0;
     text-align:center;
-    padding-top:100px;
+    padding-top:50px;
  }
 
  h1 {
     font-size: 100px;
-     
+    
  }
  ul{
      text-align: center;
@@ -53,39 +53,17 @@ h1, h2, h3 {
  }
  button { 
      text-align: center;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: 500;
+    margin:5px 0;
+    text-align:center;
+    padding-top:5px;
+    background-color: whitesmoke
  }
 
 /* Hangman Area */
-.hang-container {
-    margin-top:10px;
-    margin-right:90px;
-    width:200px;
-    height:205px;
-    float:right;
-
+.Scaffold{
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px
 }
-
- .scaffold-top {
-     width:108px;
-     height:5px;
-     background:#332915;
- }
-
- .scaffold-left {
-     width:5px;
-     height:200px;
-     background:#332915;
-     float:left;
- }
-
- .scaffold-base {
-     width:150px;
-     height:5px;
-     background:#332915;
- }
- 
- .draw-area {
-     width:200px;
-     height:200px;
-     text-align:center;
- }
