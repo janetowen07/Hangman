@@ -1,0 +1,92 @@
+#gameScreen {
+    border: 2px solid tomato;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    background-color: tomato;
+}
+
+#letterButtonsContainer {
+    border: 2px solid cornflowerblue;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    background-color: cornflowerblue
+}
+
+#guessingWord {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+
+
+
+h1, h2, h3 {
+    color: whitesmoke;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: 100;
+ 	text-transform: uppercase;
+    margin:5px 0;
+    text-align:center;
+    padding-top:100px;
+ }
+
+ h1 {
+    font-size: 100px;
+     
+ }
+ ul{
+     text-align: center;
+ }
+  
+  body {
+     background-color:lightblue;
+ } 
+ 
+ p {
+     color:purple;
+     font-family: 'Roboto', sans-serif;
+ 	font-weight: 100;
+ 	text-transform: uppercase;
+    margin:5px 0;
+    font-size: 50px;
+    text-align:center;
+    padding-top:100px;
+ }
+ button { 
+     text-align: center;
+ }
+ /*.alphabet {
+     float:left;
+     list-style-type: none;
+     margin-top: 90px;
+     padding:0px;
+     cursor:pointer;
+     width: 100%;
+ 
+     li{
+         padding:0px;
+         border-right:1px solid;
+         font-size:20px;
+         text-align: center;
+         padding-left:3px;
+         padding-right:3px;
+         display:inline;
+     }
+ }*/
+
+/*div {
+    height:55px;
+    width:50px;
+    display: inline-block;
+    border-radius:5px;
+    text-align:center;
+    vertical-align:middle;
+    font-family: Verdana, Arial, Sans-Serif;
+    border: 1px solid black;
+}
+
+*/
+
