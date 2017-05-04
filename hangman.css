@@ -19,10 +19,6 @@
     font-weight: bold;
 }
 
-
-
-
-
 h1, h2, h3 {
     color: whitesmoke;
  	font-family: 'Roboto', sans-serif;
@@ -58,35 +54,38 @@ h1, h2, h3 {
  button { 
      text-align: center;
  }
- /*.alphabet {
-     float:left;
-     list-style-type: none;
-     margin-top: 90px;
-     padding:0px;
-     cursor:pointer;
-     width: 100%;
- 
-     li{
-         padding:0px;
-         border-right:1px solid;
-         font-size:20px;
-         text-align: center;
-         padding-left:3px;
-         padding-right:3px;
-         display:inline;
-     }
- }*/
 
-/*div {
-    height:55px;
-    width:50px;
-    display: inline-block;
-    border-radius:5px;
-    text-align:center;
-    vertical-align:middle;
-    font-family: Verdana, Arial, Sans-Serif;
-    border: 1px solid black;
+/* Hangman Area */
+.hang-container {
+    margin-top:10px;
+    margin-right:90px;
+    width:200px;
+    height:205px;
+    float:right;
+
 }
 
-*/
+ .scaffold-top {
+     width:108px;
+     height:5px;
+     background:#332915;
+ }
 
+ .scaffold-left {
+     width:5px;
+     height:200px;
+     background:#332915;
+     float:left;
+ }
+
+ .scaffold-base {
+     width:150px;
+     height:5px;
+     background:#332915;
+ }
+ 
+ .draw-area {
+     width:200px;
+     height:200px;
+     text-align:center;
+ }
